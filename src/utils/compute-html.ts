@@ -14,7 +14,7 @@ export const computeHtml = ({
     <html>
       <head>
         <title>${content}</title>
-        <meta property="og:title" content="Thirdweb Frames" />
+        <meta property="og:title" content="Ikigai Labs XYZ ART FRAMES" />
         <meta
           property="og:image"
           content="https://${config.hostUrl}${imagePath}"

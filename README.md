@@ -1,4 +1,4 @@
-# Goal
+# Ikigai Labs XYZ ART FRAMES
 
 Build a Farcaster Frame which allows users to mint an NFT if they have liked and recasted a specific cast. Utilizing thirdweb's Engine we can easily make a http request for Engine to execute an on-chain transaction and mint an NFT to the user.
 
