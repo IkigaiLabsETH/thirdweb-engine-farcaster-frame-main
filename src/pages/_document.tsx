@@ -5,10 +5,10 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta property="og:title" content={`Ikigai Labs XYZ Frame`} />
-        <meta property="og:image" content={`/good.png`} />
+        <meta property="og:image" content={`/founderclub.png`} />
         <meta property="fc:frame" content="vNext" />
-        <meta property="fc:frame:image" content={`https://castart-livethelifetv.vercel.app/good.png`} />
-        <meta property="fc:frame:post_url" content={`/good.png`} />
+        <meta property="fc:frame:image" content={`https://castart-livethelifetv.vercel.app/foundersclub.png`} />
+        <meta property="fc:frame:post_url" content={`/foundersclub.png`} />
         <meta property="fc:frame:button:1" content="GM.LFG" />
       </Head>
       <body>
