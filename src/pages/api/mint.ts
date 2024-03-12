@@ -37,7 +37,7 @@ export default async function handler(
     const { trustedData } = requestBodyWarpcastSchema.parse(req.body);
 
     const action = await Warpcast.validateMessage(trustedData.messageBytes);
-
+    console.log(action)
     if (type === "start") {
       const isNFTOwned = await ThirdWebEngine.isNFTOwned(
         action.interactor.custody_address
@@ -119,12 +119,13 @@ export default async function handler(
         })
       );
     }
-  } catch (err) {
+  } catch (err: any) {
+    console.error(err);
     return res.status(200).send(
       computeHtml({
         imagePath: "/foundersclub.png",
         postType: "start",
-        content: "Something went wrong",
+        content: err.message,
       })
     );
   }
