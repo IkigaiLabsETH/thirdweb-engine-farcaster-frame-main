@@ -8,7 +8,7 @@ export default function Document() {
         <meta property="og:image" content={`/founderclub.png`} />
         <meta property="fc:frame" content="vNext" />
         <meta property="fc:frame:image" content={`https://castart-livethelifetv.vercel.app/foundersclub.png`} />
-        <meta property="fc:frame:post_url" content={`/foundersclub.png`} />
+        <meta property="fc:frame:post_url" content={`https://castart-livethelifetv.vercel.app/foundersclub.png`} />
         <meta property="fc:frame:button:1" content="GM.LFG" />
       </Head>
       <body>
